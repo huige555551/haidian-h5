@@ -31,7 +31,8 @@ html{
 html, body, .p-index{
   width: 100%;
   color: #4a9faa;
-  background: #FDF8F8;
+  background: url('../img/education/bg.png');
+  width: 100%;
 }
 .navigation{
   display: flex;
@@ -73,10 +74,11 @@ html, body, .p-index{
 .logo-wrapper{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .back{
-  width: 0.6rem;
-  height: 0.7rem;
+  width: 0.4rem;
+  height: 0.5rem;
 }
 .logo{
   width:0.4rem;

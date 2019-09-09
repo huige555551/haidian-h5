@@ -38,10 +38,25 @@
 				</a>
 			</div>
 			<div class="content">
-				<img src="../img/education/Peking-University_02.png" alt="">
+				<img id='detail-img' src="" alt="">
 			</div>
 		</div>
 	</div>
 </body>
+<script>
+window.onload = function(){
+	function getQueryString(name){
+		var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+		var r = window.location.search.substr(1).match(reg);
+		if(r!=null)return  unescape(r[2]); return null;
+	}
+	imgList = ['Peking-University_02.png']
+	p = getQueryString('p')
+	for(var i = 0; i < 8; i++){
+		imgList[i] = '../img/education/' + imgList[i]
+	}
+	document.getElementById('detail-img').src = imgList[parseInt(p)-2]
+}
+</script>
 
 </html>
