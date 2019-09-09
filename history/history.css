@@ -32,102 +32,56 @@ html, body, .p-index{
   width: 100%;
   color: #4a9faa;
 }
-.main{
-  background-image: url('./img/index-bg.png');
-  /* background-position: 100% 50%; */
-  background-size: 100% 100%;
-  height: 100%;
-  padding: 1.05rem 0.39rem;
-}
-.logo{
-  width:1.95rem;
-  height:0.79rem;
-}
-.title{
-  margin-top: 0.21rem;
-  text-align: center;
-  font-family:'SF UI Text';
-  font-weight:bold;
-  font-size: 0.5rem;
-  color:rgba(74,159,170,1);
-  line-height: 0.28rem;
-}
-.content{
-  font-size:0.21rem;
-  font-family:SF UI Text;
-  font-weight:500;
-  margin-top: 0.48rem;
-  color:rgba(66,146,176,1);
-  line-height:0.32rem;
-}
-/* .content p:not(:last-child){ */
-.content p{
-  margin-bottom: 0.3rem;
-}
-.vertical-middle {
-  position:relative;
-  top:50%;
-  transform:translateY(-50%);
-}
-.video{
-  /* width:6.56rem; */
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  background: url('../img/history/blue-head_01.png');
+  background-size: 100% 100% ;
   width: 100%;
-  height:3.71rem;
+  height: 1.57rem;
+  
 }
-.btn-list{
-  margin-top: 0.4rem;
-}
-.upper, .lower{
-  justify-content: center;
-  display: flex;
+.navigation a{
+  vertical-align: middle;
+  display: inline-block;
   color: white;
-  font-size:.24rem;
-}
-.link{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.link a {
-  color: white;
+  text-align: center;
 }
 .history{
-  background-image: url('./img/History\ &\ Culture\ button.png');
-  background-size: 100% 100%;
-  width:2.05rem;
-  height:.7rem;
+  line-height: 1.6rem;
+  width: 2.77rem;
 }
-.nature{
-  margin-left: 0.6rem;
-  background-image: url('./img/Nature\ button.png');
-  background-size: 100% 100%;
-  width:1.05rem;
-  height:.7rem;
-}
-.lower{
-  margin-top: .2rem;
-}
-.education{
-  background-image: url('./img/Education\ button.png');
-  background-size: 100% 100%;
-  width:1.5rem;
-  height:.7rem;
-  margin-right: 0.5rem;
+.nature, .science, .education{
+  font-size: 0.2rem;
+  line-height: 1.6rem;
 }
 .science{
-  background-image: url('./img/Science\ &\ Technology\ button.png');
-  background-size: 100% 100%;
-  width:2.6rem;
-  height:.7rem;
+  margin-right: 0.2rem;
 }
-.footer{
+a.education span, a.nature span{
+  padding-right: 6px;
+  border-right: 1px solid white;
+}
+.logo{
+  width:0.4rem;
+  height:0.77rem;
+}
+.title{
+  width:5.01rem;
   text-align: center;
-  padding: 0.2rem 0.8rem;
-  background: #4A9FAA;
-  color: white;
-  font-size:0.13rem;
+  height:0.57rem;
+  font-size:0.6rem;
   font-family:SF UI Text;
-  font-weight:500;
-  color:rgba(255,255,255,1);
-  line-height:0.24rem;
+  font-weight:bold;
+  color:rgba(32,161,172,1);
 }
+.subtitle{
+  text-align: center;
+  width:1.15rem;
+  height:0.23rem;
+  font-size:0.3rem;
+  font-family:SF UI Text;
+  font-weight:bold;
+  color:rgba(240,198,80,1);
+}
+
