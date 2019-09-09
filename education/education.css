@@ -71,7 +71,12 @@ html, body, .p-index{
 
 }
 .logo-wrapper{
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.back{
+  width: 0.6rem;
+  height: 0.7rem;
 }
 .logo{
   width:0.4rem;
