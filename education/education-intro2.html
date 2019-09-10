@@ -48,25 +48,39 @@
 		
 						<div class="title">Education</div>
 						<div class="subtitle">Haidian</div>
-				<img id='detail-img' src="" alt="">
+			</div>
+			<div class="article">
+					<img src="../img/education/edu_02.png" alt="">
+					<div class="detail" style=''>
+						<p>
+							Peking University is a comprehensive and national key university. The campus, known as "Yan Yuan"（the garden of Yan）, is situated at Haidian District in the western suburb of Beijing, with a total area of 2,743,532 square metres (or 274 hectares). It stands near to the Yuanmingyuan Garden and the Summer Palace.
+						</p> 
+						<p>
+							Thus Peking University has become a center for teaching and research and a university of a new type, embracing diverse branches of learning such as basic and applied sciences, social sciences and the humanities, and sciences of medicine, management, and education. Its aim is to rank among the world's best universities in the future.
+						</p>
+
+						<img src="../img/education/北京大学.jpg">
+						<img src="../img/education/北京大学 摄影：马文晓（中国）.jpg" alt="">
+
+					</div>
 			</div>
 		</div>
 	</div>
 </body>
 <script>
-window.onload = function(){
-	function getQueryString(name){
-		var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-		var r = window.location.search.substr(1).match(reg);
-		if(r!=null)return  unescape(r[2]); return null;
-	}
-	imgList = ['Peking-University_02.png']
-	p = getQueryString('p')
-	for(var i = 0; i < 8; i++){
-		imgList[i] = '../img/education/' + imgList[i]
-	}
-	document.getElementById('detail-img').src = imgList[parseInt(p)-2]
-}
+// window.onload = function(){
+// 	function getQueryString(name){
+// 		var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+// 		var r = window.location.search.substr(1).match(reg);
+// 		if(r!=null)return  unescape(r[2]); return null;
+// 	}
+// 	imgList = ['Peking-University_02.png']
+// 	p = getQueryString('p')
+// 	for(var i = 0; i < 8; i++){
+// 		imgList[i] = '../img/education/' + imgList[i]
+// 	}
+// 	document.getElementById('detail-img').src = imgList[parseInt(p)-2]
+// }
 </script>
 
 </html>

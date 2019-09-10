@@ -96,3 +96,24 @@ html, body, .p-index{
   font-family:SF UI Text;
   font-weight:bold;
 }
+.detail{
+  margin: 0rem 0.49rem;
+  padding: 0rem 0.3rem; 
+  background: #f1d2d2;
+  font-weight: bolder;
+  text-justify : auto; 
+  text-align:justify;
+  padding-bottom: 1rem;
+}
+.detail p{
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.detail img{
+  margin-top: 0.3rem;
+}
+.article .detail{
+  font-family: '微软雅黑';
+  color: black;
+}
+
